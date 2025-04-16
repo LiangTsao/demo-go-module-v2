@@ -1,0 +1,13 @@
+{
+  "go.formatTool": "gofmt",
+  "go.formatOnSave": true,
+  "go.testFlags": ["-v"],
+  "go.lintOnSave": "package",
+  "go.toolsManagement.checkForUpdates": "local",
+  "gopls": {
+    "ui.diagnostic.analyses": {
+      "fillreturns": true,
+      "nonewvars": true
+    }
+  }
+}
